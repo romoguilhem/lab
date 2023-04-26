@@ -1,1 +1,12 @@
-<h1>Games</h1>
+<h1>Liste exaustive des games</h1>
+
+<p>Venez tester nos jeux! <br>Pour l'instant yen a qu'un qui marche mais l'effet reste le même.</p>
+
+<ul>
+  <% @games.each do |game|%>
+    <li><%= link_to "#{game}.capitalize", morpio_path %></li>
+  <% end %>
+</ul>
+
+
+<%= link_to "Home", root_path %>
