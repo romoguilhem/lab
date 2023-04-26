@@ -1,0 +1,14 @@
+.button {
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}

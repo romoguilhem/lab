@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+}
+
+.card-container {
+  border: 3px solid whitesmoke;
+  display: grid;
+  grid-template-areas: "card card card";
+}
+
+.card {
+  width: 150px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid whitesmoke;
+  border-radius: 3px;
+  box-shadow: 2px 2px 0 whitesmoke;
+}

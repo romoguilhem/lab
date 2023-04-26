@@ -1,0 +1,10 @@
+.catch-phrase {
+  text-align: left;
+  width: 70%;
+  height: min-content;
+}
+
+.phrase-container {
+  height: min-content;
+  display: flex;
+}
