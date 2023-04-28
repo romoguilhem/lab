@@ -1,6 +1,7 @@
 .catch-phrase {
   text-align: left;
   width: 70%;
+  max-width: 600px;
   height: min-content;
 }
 

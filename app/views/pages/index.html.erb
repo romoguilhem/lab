@@ -10,14 +10,14 @@
   </div>
 </div>
 
-<div class="card-container">
-  <ul>
+<div class="wrapper">
+  <div class="card-container">
     <% @games.each do |game|%>
       <div class="card">
-        <li><%= link_to "#{game.capitalize}", morpio_path %></li>
+        <%= link_to "#{game.capitalize}", morpio_path %>
       </div>
     <% end %>
-  </ul>
+  </div>
 </div>
 
 <div class="button-container">
