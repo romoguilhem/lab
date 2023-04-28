@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-areas: "card card";
+  width: 750px;
+}
+
+.card {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid whitesmoke;
+  box-shadow: 2px 2px 0 whitesmoke;
+  padding-left: 6px;
+  border-radius: 5px;
+  width: 250px;
+  margin: 10px auto;
+}

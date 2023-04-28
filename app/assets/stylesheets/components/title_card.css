@@ -1,0 +1,10 @@
+.title-card {
+  color: pink;
+  border: 3px solid whitesmoke;
+  width: 300px;
+  height: fit-content;
+}
+
+.title-container {
+  height: 200px;
+}
