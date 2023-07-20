@@ -1,11 +1,11 @@
-.catch-phrase {
+.catch_phrase {
   text-align: left;
   width: 70%;
   max-width: 600px;
   height: min-content;
 }
 
-.phrase-container {
+.phrase_container {
   height: min-content;
-  display: flex;
+  text-align: left;
 }

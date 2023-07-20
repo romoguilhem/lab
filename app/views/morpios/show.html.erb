@@ -1,0 +1,35 @@
+<div class="title_container">
+  <div class="title_card">
+    <h1>Morpio c'est le Morpion </h1>
+  </div>
+</div>
+
+<div class="phrase_container">
+  <div class="catch-phrase">
+    <p>Succincte explication du jeu: <br>C'est un peu comme un puissance 4 en plus petit et sans la gravité. <br> Bon jeu.</p>
+    <p>Contrôles, morpio id: <%= @morpio.id %> </p>
+  </div>
+</div>
+
+<div class="grid_wrapper">
+  <div class="grid">
+    <% n = 0 %>
+    <% @cells.each do |cell| %>
+      <div id = <%= n += 1 %> class="cell free">
+        <%= cell.id  %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="button_container">
+  <div class="button">
+    <%= link_to "Return to Games", index_path %>
+  </div>
+  <div class="button">
+    <%= link_to "Restart", morpio_path(@morpio.id) %>
+  </div>
+  <div class="button">
+    <%= link_to "Home", root_path %>
+  </div>
+</div>

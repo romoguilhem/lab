@@ -3,7 +3,7 @@
   justify-content: center;
 }
 
-.card-container {
+.card_container {
   display: grid;
   grid-template-areas: "card card";
   width: 750px;

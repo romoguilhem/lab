@@ -5,13 +5,13 @@ body {
   justify-content: center;
 }
 
-.title-container, .button-container {
+.title_container, .button_container {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.title-card, .button {
+.title_card, .button {
   border: 3px solid whitesmoke;
   border-radius: 5px;
   box-shadow: 2px 2px 0 whitesmoke;

@@ -5,8 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   root to: "pages#home"
   get "home", to: "pages#home"
-  get "index", to: "pages#index",     as: :index
-  get "morpio", to: "pages#morpio",   as: :morpio
-
+  get "index", to: "pages#index",            as: :index
+  get "morpio/:id", to: "morpios#show",      as: :morpio
   get '*unmatched_route', to: 'pages#home'
 end
