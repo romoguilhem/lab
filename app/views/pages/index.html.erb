@@ -1,26 +1,26 @@
-<div class="title-container">
-  <div class="title-card">
+<div class="title_container">
+  <div class="title_card">
     <h1>Liste exaustive des games</h1>
   </div>
 </div>
 
-<div class="phrase-container">
-  <div class="catch-phrase">
+<div class="phrase_container">
+  <div class="catch_phrase">
     <p>Venez tester nos jeux! <br>Pour l'instant yen a aucun qui marche mais l'effet reste le même.</p>
   </div>
 </div>
 
 <div class="wrapper">
-  <div class="card-container">
+  <div class="card_container">
     <% @games.each do |game|%>
       <div class="card">
-        <%= link_to "#{game.capitalize}", morpio_path %>
+        <%= link_to "#{game.capitalize}", morpio_path(@morpio.id) %>
       </div>
     <% end %>
   </div>
 </div>
 
-<div class="button-container">
+<div class="button_container">
   <div class="button">
     <%= link_to "Home", root_path %>
   </div>

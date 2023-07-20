@@ -1,0 +1,36 @@
+.grid_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "cell cell cell";
+}
+
+.cell {
+  border: 3px solid whitesmoke;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6px;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.free:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.cross {
+  transition: 3000ms;
+  background-color: red;
+}
+
+.circle {
+  transition: 6000ms;
+  background-color: blue;
+}
